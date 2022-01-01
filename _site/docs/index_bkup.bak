@@ -26,13 +26,13 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="The site for Cornell Tech’s Deep Probabilistic and Generative Models." />
 <meta property="og:description" content="The site for Cornell Tech’s Deep Probabilistic and Generative Models." />
-<link rel="canonical" href="https://www.csrhymes.com/bulma-clean-theme/" />
-<meta property="og:url" content="https://www.csrhymes.com/bulma-clean-theme/" />
+<link rel="canonical" href="https://www.csrhymes.com/bulma-clean-theme/index_bkup.bak" />
+<meta property="og:url" content="https://www.csrhymes.com/bulma-clean-theme/index_bkup.bak" />
 <meta property="og:site_name" content="Deep Probabilistic and Generative Models" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Probabilistic and Generative Models" />
 <script type="application/ld+json">
-{"url":"https://www.csrhymes.com/bulma-clean-theme/","headline":"Deep Probabilistic and Generative Models","@type":"WebSite","description":"The site for Cornell Tech’s Deep Probabilistic and Generative Models.","name":"Deep Probabilistic and Generative Models","@context":"https://schema.org"}</script>
+{"url":"https://www.csrhymes.com/bulma-clean-theme/index_bkup.bak","headline":"Deep Probabilistic and Generative Models","@type":"WebPage","description":"The site for Cornell Tech’s Deep Probabilistic and Generative Models.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- head scripts --></head>
 
@@ -51,7 +51,7 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="/bulma-clean-theme/" class="navbar-item is-active">Home</a>
+                <a href="/bulma-clean-theme/" class="navbar-item ">Home</a>
                 
                 
                     
@@ -126,6 +126,8 @@
             <h1 class="title is-2">Deep Probabilistic and Generative Models</h1>
             <p class="subtitle is-3">An advanced topic in machine learning.</p>
             
+                <a href="/bulma-clean-theme/page-1/" class="button is-info is-large">Example Call To Action</a>
+            
         </div>
     </div>
 </section>
@@ -141,24 +143,15 @@
                             
                             <div class="icon callout-icon">
                             
-                                <i class="fas fa-address-card fa-4x"></i>
+                                <i class="fas fa-copy fa-4x"></i>
                             
                             </div>
                             
-                            <p class="title is-5">About</p>
-                            <p class="subtitle is-5">What is this course?</p>
+                            <p class="title is-5">Multiple page layouts</p>
+                            <p class="subtitle is-5">Including sidebar, menubar, tabs and callouts</p>
                             
-                            
-                            <div class="content">
-                                <p>The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines.<br />
-</p>
-                            </div>
                             
 
-                            
-                            <a href="/bulma-clean-theme/page-1/" class="button is-primary">
-                                Call to action 1
-                            </a>
                             
                         </div>
                     
@@ -166,24 +159,15 @@
                             
                             <div class="icon callout-icon">
                             
-                                <i class="fas fa-user-graduate fa-4x"></i>
+                                <i class="fas fa-mail-bulk fa-4x"></i>
                             
                             </div>
                             
-                            <p class="title is-5">Prerequisites</p>
-                            <p class="subtitle is-5">Who is this course for?</p>
+                            <p class="title is-5">Blog included</p>
+                            <p class="subtitle is-5">Layouts for blog and post pages included</p>
                             
-                            
-                            <div class="content">
-                                <p>The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines.<br />
-</p>
-                            </div>
                             
 
-                            
-                            <a href="/bulma-clean-theme/page-2/" class="button is-primary">
-                                Call to action 2
-                            </a>
                             
                         </div>
                     
@@ -191,24 +175,15 @@
                             
                             <div class="icon callout-icon">
                             
-                                <i class="fas fa-university fa-4x"></i>
+                                <i class="fab fa-github fa-4x"></i>
                             
                             </div>
                             
-                            <p class="title is-5">Affiliates</p>
-                            <p class="subtitle is-5">Who are we?</p>
+                            <p class="title is-5">Works with GitHub Pages</p>
+                            <p class="subtitle is-5">Quick and easy to get started</p>
                             
-                            
-                            <div class="content">
-                                <p>The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines. The example description text goes here and can be multiple lines.<br />
-</p>
-                            </div>
                             
 
-                            
-                            <a href="/bulma-clean-theme/page-3/" class="button is-primary">
-                                Call to action 3
-                            </a>
                             
                         </div>
                     
@@ -223,88 +198,158 @@
         <div class="container">
             <div class="columns is-multiline">
                 
-                <div class="column is-12">
+                <div class="column is-8">
                     
                     
                     
                     
                     
 <div class="content">
-    <h1 id="table-of-contents">Table of Contents</h1>
-<details>
-  <summary><strong style="font-size:22px">Chapter 1: Introduction and Background </strong></summary>
+    # Bulma Clean Theme demo website
 
-<ul>
-  <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</details>
-<details>
-  <summary><strong style="font-size:22px">Chapter 2: Autoregressive Models  </strong></summary>
+This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
 
-<ul>
-  <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</details>
-<details>
-  <summary><strong style="font-size:25px">Chapter 3: Variational Auto-encoders </strong></summary>
+[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
+![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
 
-<ul>
-  <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</details>
-<details>
-  <summary><strong style="font-size:25px">Chapter 4: Normalizing Flow Models </strong></summary>
+## Ruby Gem
 
-<ul>
-  <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</details>
-<details>
-  <summary><strong style="font-size:22px">Chapter 5: Generative Adversarial Networks </strong></summary>
+The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
 
-<ul>
-  <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</details>
-<details>
-  <summary><strong style="font-size:22px">Chapter 6: Combining Generative Model Variants </strong></summary>
+## GitHub Pages
 
-<ul>
-  <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</details>
-<details>
-  <summary><strong style="font-size:22px">Chapter 7: Evaluating Generative Models </strong></summary>
+The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
 
-<ul>
-  <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</details>
-<details>
-  <summary><strong style="font-size:22px">Chapter 8: Discreteness in Generative Modeling </strong></summary>
+```yml
+remote_theme: chrisrhymes/bulma-clean-theme
+```
 
-<ul>
-  <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</details>
+## Instructions
+
+For full instructions, please see the Readme at the GitHub repo:
+[https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md](https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md)
+
+## Page Layouts
+
+This demo site showcases the available page layout options.
+
+* Page With Sidebar
+* Page Without Sidebar
+* Page With Menubar
+* Page With Tabs
+* Page Without Footer
+* Page Without Hero
+* Page With Contents
+* Landing Page With Callouts
+* Sponsors Page
+* Image Gallery
+* Recipe Page
+* Blog
+* Post
+
+## Supported By JetBrains
+
+JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
+
+[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
 
 </div>
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="/bulma-clean-theme/img/blog-post-series.jpg" alt="Creating a post series">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/bulma-clean-theme/2021/10/30/creating-a-post-series/">Creating a post series</a>
+            
+            
+                <p><p>From version 0.12, you can now make a post a part of a series of posts, linking to the other posts in the series, by creating a <code class="language-plaintext highlighter-rouge">series</code> data file and then setting the series in each of the post’s front matter.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/bulma-clean-theme/2021/10/30/creating-a-post-series/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Oct 30, 2021</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="https://www.csrhymes.com/img/example-docs-page.jpg" alt="Creating a docs site with Bulma Clean Theme">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/bulma-clean-theme/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/">Creating a docs site with Bulma Clean Theme</a>
+            
+            
+                <p><p>I created Bulma Clean Theme as a theme for my own website and decided to open source it so others could use it as well. One of the key things I wanted to do was to create a theme that worked with GitHub Pages, which also means that you can also use it as a docs site for your project.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/bulma-clean-theme/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: May 8, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="https://www.csrhymes.com/img/landing-page.jpg" alt="Introducing some new layouts to Bulma Clean Theme">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/bulma-clean-theme/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/">Introducing some new layouts to Bulma Clean Theme</a>
+            
+            
+                <p><p>I’ve been meaning to write about some of the new features I have been rolling out to my Jekyll theme, <a href="https://www.csrhymes.com/bulma-clean-theme/">Bulma Clean Theme</a>, for a while but I have only just managed to push the update for the landing page layout last weekend. This article provides some of the thinking behind the updates, as well as a brief introduction to how to get started.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/bulma-clean-theme/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jul 23, 2019</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+
+
+
                 </div>
                 
             </div>
