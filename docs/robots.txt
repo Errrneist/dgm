@@ -1,1 +1,1 @@
-Sitemap: https://errrneist.github.io/dgm//sitemap.xml
+Sitemap: https://errrneist.github.io//dgm/sitemap.xml
