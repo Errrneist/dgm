@@ -5,7 +5,7 @@ tagline: Deep Probabilistic and Generative Models
 email: your-email@domain.com
 description: >
   The site for Cornell Tech's Deep Probabilistic and Generative Models.
-baseurl: ""
+baseurl: "/dgm"
 siteurl: "https://errrneist.github.io/dgm/"
 url: ""
 permalink: pretty
