@@ -29,9 +29,9 @@
       link: /gallery/
     - name: Recipe Page
       link: /example-recipe/
-- name: Products
+- name: Topics
   link: /products/
-- name: Showcase
+- name: Student Projects
   link: /showcase/
 - name: Blog
   link: /blog/

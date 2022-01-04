@@ -4,7 +4,7 @@ subtitle: An advanced topic in machine learning.
 layout: page
 callouts: dgm_callouts
 show_sidebar: false
-hero_height: is-large
+hero_height: is-medium
 ---
 
 # Table of Contents
@@ -27,7 +27,7 @@ hero_height: is-large
 </ul>
 </details>
 <details>
-  <summary><strong style="font-size:25px">Chapter 3: Variational Auto-encoders </strong></summary>
+  <summary><strong style="font-size:22px">Chapter 3: Variational Auto-encoders </strong></summary>
 
 <ul>
   <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
@@ -36,7 +36,7 @@ hero_height: is-large
 </ul>
 </details>
 <details>
-  <summary><strong style="font-size:25px">Chapter 4: Normalizing Flow Models </strong></summary>
+  <summary><strong style="font-size:22px">Chapter 4: Normalizing Flow Models </strong></summary>
 
 <ul>
   <li><a href="https://kuleshov.github.io/cornell-deep-generative-models-course/assets/slides/lecture1_2019.pdf">Slide 1: Introduction</a> </li>
